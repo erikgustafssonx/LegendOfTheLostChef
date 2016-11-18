@@ -1,2 +1,5 @@
-# legend_of_the_lost_chef
-A prototype for an dungeon crawling adventure game for Android written in Java
+# Legend of the Lost Chef
+A dungeon crawling adventure game for Android
+
+Available on Google Play  
+https://play.google.com/store/apps/details?id=se.erikgustafsson.ekir.lostchef
