@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erikgustafsson.ekir.project" >
+
+    <application
+        android:name="se.erikgustafsson.ekir.lostchef.DungeonCrawlerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/dungeoncrawlericon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="se.erikgustafsson.ekir.lostchef.PlayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="se.erikgustafsson.ekir.lostchef.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="se.erikgustafsson.ekir.lostchef.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="se.erikgustafsson.ekir.lostchef.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="se.erikgustafsson.ekir.lostchef.CreditsActivity"
+            android:label="@string/title_activity_credits"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#000">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:nestedScrollingEnabled="false"
+        android:fillViewport="false"
+        android:fadeScrollbars="false"
+        >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+        <TextView android:text="@string/game_title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl_game_title"
+            android:textColor="#ff0900ff"
+            android:textSize="20dp"
+            android:textIsSelectable="true" />
+
+            <TextView android:text="@string/about_text1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lbl_about_text"
+            android:textColor="@android:color/white" />
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="160dp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/small_screenshot_lost_chef"
+                android:scaleType="centerInside" />
+
+            <TextView android:text="@string/about_text2" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_about_text2"
+                android:textColor="@android:color/white" />
+            <ImageView
+                android:layout_width="185dp"
+                android:layout_height="160dp"
+                android:id="@+id/imageView3"
+                android:src="@drawable/erik"
+                android:scaleType="centerInside" />
+            <TextView android:text="@string/about_text3" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lbl_about_text3"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credits for third party graphics and sound"
+                android:id="@+id/btn_credits" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

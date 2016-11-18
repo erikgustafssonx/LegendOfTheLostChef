@@ -1,0 +1,53 @@
+<resources>
+    <string name="about_text1">
+        Legend of the lost chef is a dungeon seek and find adventure-game. It contains no violance, even though there is a sword button for swinging the sword. The original plan was to make a hack-n-slash game, but since I made this kinds of games before I instead added characters that you can interact with and talk with to make the story more alive.
+    </string>
+    <string name="about_text2">
+How to play:\n
+You draw a walking vector in the direction you want to walk.
+Where you start or end the vector does not matter. Only the direction of the vector matters.\n
+\n
+You can talk with characters by walking up to them. You can also swing your sword with the sword button, but this is as mentioned only a special effect for fun\n
+\n
+Win condition\n
+The game ends when you have successfully found and rescued the Chef that is gone\n
+
+
+
+
+    </string>
+        <string name="about_text3">
+About the developer\n
+\n
+This game was made by Erik Gustafsson as a final project for a course in Android Game development at Högskola Kristianstad. Erik is a 28 years old master student in computer science from Uppsala
+
+
+\n\n
+Erik developed all the code in this game. The graphics and sounds come from third party online resources
+</string>
+<string name="credits">
+Sprite graphics:\n
+Reiners Tilesets\n
+http://www.reinerstilesets.de/\n
+\n
+Textures:\n
+http://www.cgtextures.com/\n
+\n
+Sound effect(sword):\n
+http://freesound.org/people/audione/sounds/52458/\n
+\n
+Music:\n
+Preziosa Overture by Carl Maria von Weber\n
+Lived 1786-1826 in Germany
+    </string>
+    <string name="game_title">Legend of the lost chef</string>
+    <string name="app_name">Lost Chef</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_credits">CreditsActivity</string>
+</resources>
+
+
